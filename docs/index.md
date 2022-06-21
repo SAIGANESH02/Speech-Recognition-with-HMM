@@ -1,4 +1,5 @@
 ## Speech recognition using HMM	
+[Project Link](https://github.com/SAIGANESH02/Speech-Recognition-with-HMM/)
 
 ### Introduction
 - Speech recognition is a challenging problem on which much work has been done the last decades. Some of the most successful results have been obtained by using hidden Markov models as explained by Rabiner in 1989. 
@@ -25,11 +26,11 @@ The source speech is quantized with 16 bits and sampled at 8000 Hz. The signal i
 
 
 ### HMMs can do do three primary tasks
-- State Estimation  P(S|O)  - can be useful if you have prior info about what states mean and create the state probabilities yourself.
+- State Estimation P(S\O) - can be useful if you have prior info about what states mean and create the state probabilities yourself.
 
 - Path Estimation - given observations, what is the most likely "state path"? Not useful in our case, and not even implemented here
 
-- Maximum Likelihood Estimation  P(O|λ)  - learn the HMM parameters  λ  which maximize the probability of observations. This is the primary method we will use.
+- Maximum Likelihood Estimation P(O\λ) - learn the HMM parameters  λ  which maximize the probability of observations. This is the primary method we will use.
 
 - **We will use Baum Welch algorithm**
 
